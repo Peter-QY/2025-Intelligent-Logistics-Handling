@@ -157,9 +157,14 @@
   PC9  STEP        PB1重映射而来，TIM3_CH4   *==GPIO_PinRemapConfig(GPIO_FullRemap_TIM3,ENABLE)==*
 
 > 四个车轮电机挂载在同一个定时器TIM3的四个输出通道上
+
 > 爪子升降挂载在一个定时器TIM2的一个输出通道CH3上
+
 > 物块旋转台挂载在一个定时器TIM4的一个输出通道CH3上
+
 > 空闲两个电机 MOTOR2和MOTOR6分别是TIM2_CH4和TIM4_CH4
+
 > TIM2和TIM3进行了完全重映射
+
 > 三个舵机用了TIM5的三个通道
 
